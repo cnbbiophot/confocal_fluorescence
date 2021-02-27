@@ -18,6 +18,9 @@ import copy
 import csv
 
 # agv, 20oct2020
+# Python code developed to perform simple Brownian particles simulation,
+# with one or several diffusive species. Inspired in the former diffusion
+# brownian simulations by dwaithe
 
 
 def brownian_only_numpy(total_sim_time, time_step, num_of_mol, D, width, height, depth, track_arr_init):
