@@ -56,13 +56,13 @@ Select_Distribution = true;
 
 %% Filenames
 
-name_f = 'D:\Users\Arturo\Matlab_sims\gromacs_variables\all_species\';
+name_f = 'D:\Users\User\variables\'; % example folder
 name_simVar = '21_400LUV_b5um_dt10us_t10s';
 
 name_pyf = 'PY_p2000_b5000nm_D90_dt0.010000ms_t10000ms';
-name_pyf_folder = 'D:\Users\Arturo\Python\trajectory_simulation\';
+name_pyf_folder = 'D:\Users\User\variables\Python\';
 
-name_f_save = 'D:\Users\Arturo\Matlab_sims\fluorescence_simulations\210219_PCHlimits_1e4ph\';
+name_f_save = 'D:\Users\User\confocal_simulations';
 
 %% Repeat experiment number_repetitions times
 
