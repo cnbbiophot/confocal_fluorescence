@@ -13,7 +13,7 @@ The program is coded for simulated traces of particles diffusing in a cubic box,
 Some parameters to choose are: 
 * Photon counts per molecule per second
 * Size of focus to analyse
-* Photon background counts
+* Background photon counts
 * Type of fluorophore distributions if loaded particles are used
 
 ## FSim_compute_distribution_fluorophores.m
