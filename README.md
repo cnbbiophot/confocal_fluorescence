@@ -43,7 +43,7 @@ Function that put the variables (either gromacs of python format) in the correct
 
 Main simulation program. It assumes a poisson emmission-detection process for each fluorophore. It extracts the parts of the trajectory that are in focus with a sufficient tolerant limits. Then computes the photon counts for each fluorophore separately and add each fluorophore emmision to the final signal with the correct binning.
 
-# Input data and diffusive simulations
+# Input data and diffusion simulations
 
 Normally, we use input data from a gromacs diffusion simulation. The input data is a matlab struct varible with the following fields:
 
