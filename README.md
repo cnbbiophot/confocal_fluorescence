@@ -18,18 +18,13 @@ Some parameters to choose are:
 
 ## FSim_compute_distribution_fluorophores.m
 
-Configuration function of names and simulation parameters to use in FSim.
+Computes the distribution of fluorophores for the given condition in every particle. When less than all the available number of particles are used, the function chooses randomly among the particles to generate as much variability as possible in each simulation.
 
 Parameters used are:
 1. num_particles_exp is the number of particles in each condition
 2. desired_number_part_exp is the number of particles that will have non zero number of fluorophores
 3. distribution_fluo_poiss logical variable that tell whether ther is an specific fluorophore distribution
 4. k_average_exp average number of fluorophores pwe condition, 0 if there is no explicit distribution
-5. name_simVar and name_pyf_dum are cell variables with the gromacs/python variables names
-
-## FSim_fluorescence_simulation_from_traj.m
-
-Computes the distribution of fluorophores for the given condition in every particle. When less than all the available number of particles are used, the function chooses randomly among the particles to generate as much variability as possible in each simulation.
 
 ## FSim_name_variables_and_sim_para.m
 
